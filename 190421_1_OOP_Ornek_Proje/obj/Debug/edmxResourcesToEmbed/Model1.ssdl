@@ -1,0 +1,1148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OkulSabahDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bolumler">
+    <Key>
+      <PropertyRef Name="BolumlerID" />
+    </Key>
+    <Property Name="BolumlerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BolumAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Branslar">
+    <Key>
+      <PropertyRef Name="BranslarID" />
+    </Key>
+    <Property Name="BranslarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BransAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Dersler">
+    <Key>
+      <PropertyRef Name="DerslerID" />
+    </Key>
+    <Property Name="DerslerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DersAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="IdariKadro">
+    <Key>
+      <PropertyRef Name="IdariKadrolarID" />
+    </Key>
+    <Property Name="IdariKadrolarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UnvanAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="OgretmenID" Type="int" Nullable="false" />
+    <Property Name="DiplomaNumarası" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="iller">
+    <Key>
+      <PropertyRef Name="illerID" />
+    </Key>
+    <Property Name="illerID" Type="int" Nullable="false" />
+    <Property Name="ilAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KanGruplari">
+    <Key>
+      <PropertyRef Name="KanGruplariID" />
+    </Key>
+    <Property Name="KanGruplariID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KanGrubuAdi" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="KullanicilarID" />
+    </Key>
+    <Property Name="KullanicilarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciTC" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KullaniciSifre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="YetkiID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kulupler">
+    <Key>
+      <PropertyRef Name="KuluplerID" />
+    </Key>
+    <Property Name="KuluplerID" Type="int" Nullable="false" />
+    <Property Name="KulupAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SorumluOgretmenID" Type="int" />
+    <Property Name="YardimciOgretmenID" Type="int" />
+  </EntityType>
+  <EntityType Name="Notlar">
+    <Key>
+      <PropertyRef Name="NotlarID" />
+    </Key>
+    <Property Name="NotlarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HarfDegeri" Type="nvarchar" MaxLength="10" />
+    <Property Name="SayısalDegeri" Type="nchar" MaxLength="10" />
+    <Property Name="DersID" Type="int" />
+    <Property Name="Sınav1Tarih" Type="date" />
+    <Property Name="Sınav1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Sınav2Tarih" Type="date" />
+    <Property Name="Sınav2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Odev1Tarih" Type="date" />
+    <Property Name="Odev1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Odev2Tarih" Type="date" />
+    <Property Name="Odev2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="OgrenciID" Type="int" />
+    <Property Name="ProjeID" Type="int" />
+    <Property Name="Kanaat1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="KanaatTarihi1" Type="date" />
+    <Property Name="Kanaat2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="KanaatTarihi2" Type="date" />
+  </EntityType>
+  <EntityType Name="OgrenciDers">
+    <Key>
+      <PropertyRef Name="OgrenciDersID" />
+    </Key>
+    <Property Name="OgrenciDersID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DersID" Type="int" />
+    <Property Name="OgrenciID" Type="int" />
+  </EntityType>
+  <EntityType Name="OgrenciIzin">
+    <Key>
+      <PropertyRef Name="IzinID" />
+    </Key>
+    <Property Name="IzinID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IzinTuru" Type="nvarchar" MaxLength="50" />
+    <Property Name="YoklamaID" Type="int" />
+    <Property Name="BarkodNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="BaslangicTarihi" Type="date" />
+    <Property Name="BitisTarihi" Type="date" />
+  </EntityType>
+  <EntityType Name="Ogrenciler">
+    <Key>
+      <PropertyRef Name="OgrencilerID" />
+    </Key>
+    <Property Name="OgrencilerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgrenciTC" Type="nvarchar" MaxLength="11" />
+    <Property Name="OgrenciAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="OgrenciSoyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cinsiyeti" Type="nvarchar" MaxLength="10" />
+    <Property Name="DogumTarihi" Type="date" />
+    <Property Name="DogumYeriID" Type="int" />
+    <Property Name="Adres" Type="nvarchar(max)" />
+    <Property Name="OgrenciKilo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="OgrenciBoy" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="KanGrubuID" Type="int" />
+    <Property Name="KullaniciID" Type="int" />
+    <Property Name="SinifID" Type="int" />
+  </EntityType>
+  <EntityType Name="OgrenciProje">
+    <Key>
+      <PropertyRef Name="OgrenciProjeID" />
+    </Key>
+    <Property Name="OgrenciProjeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjeID" Type="int" />
+    <Property Name="OgrenciID" Type="int" />
+  </EntityType>
+  <EntityType Name="OgrenciTakim">
+    <Key>
+      <PropertyRef Name="OgrenciTakimID" />
+    </Key>
+    <Property Name="OgrenciTakimID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OkulTakimiID" Type="int" />
+    <Property Name="OgrenciID" Type="int" />
+  </EntityType>
+  <EntityType Name="OgrenciVeli">
+    <Key>
+      <PropertyRef Name="OgrenciVeliID" />
+    </Key>
+    <Property Name="OgrenciVeliID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgrenciID" Type="int" />
+    <Property Name="VeliID" Type="int" />
+  </EntityType>
+  <EntityType Name="OgretmenBilgileri">
+    <Key>
+      <PropertyRef Name="OgretmenBilgileriID" />
+    </Key>
+    <Property Name="OgretmenBilgileriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgretmenID" Type="int" Nullable="false" />
+    <Property Name="GirisTarihi" Type="date" Nullable="false" />
+    <Property Name="CikisTarihi" Type="date" />
+  </EntityType>
+  <EntityType Name="OgretmenDers">
+    <Key>
+      <PropertyRef Name="OgretmenDersID" />
+    </Key>
+    <Property Name="OgretmenDersID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DersID" Type="int" />
+    <Property Name="OgretmenID" Type="int" />
+  </EntityType>
+  <EntityType Name="OgretmenIzin">
+    <Key>
+      <PropertyRef Name="OgretmenIzinleriID" />
+    </Key>
+    <Property Name="OgretmenIzinleriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IzinTuru" Type="nvarchar" MaxLength="50" />
+    <Property Name="OgretmenID" Type="int" />
+    <Property Name="BaslangicTarihi" Type="date" />
+    <Property Name="BitisTarihi" Type="date" />
+  </EntityType>
+  <EntityType Name="Ogretmenler">
+    <Key>
+      <PropertyRef Name="OgretmenlerID" />
+    </Key>
+    <Property Name="OgretmenlerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgretmenTC" Type="nvarchar" MaxLength="11" />
+    <Property Name="OgretmenAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="OgretmenSoyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cinsiyet" Type="nvarchar" MaxLength="10" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" />
+    <Property Name="MedeniHali" Type="nvarchar" MaxLength="10" />
+    <Property Name="DogumTarihi" Type="date" />
+    <Property Name="DogumYeriID" Type="int" />
+    <Property Name="Adres" Type="nvarchar(max)" />
+    <Property Name="KanGrubuID" Type="int" />
+    <Property Name="BransID" Type="int" />
+    <Property Name="KullaniciID" Type="int" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="OgretmenProje">
+    <Key>
+      <PropertyRef Name="OgretmenProjeID" />
+    </Key>
+    <Property Name="OgretmenProjeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjeID" Type="int" />
+    <Property Name="OgretmenID" Type="int" />
+  </EntityType>
+  <EntityType Name="OkulTakimi">
+    <Key>
+      <PropertyRef Name="OkulTakımiID" />
+    </Key>
+    <Property Name="OkulTakımiID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TakimAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PersonelBilgileri">
+    <Key>
+      <PropertyRef Name="PersonelBilgileriID" />
+    </Key>
+    <Property Name="PersonelBilgileriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonelID" Type="int" Nullable="false" />
+    <Property Name="GirisTarih" Type="date" Nullable="false" />
+    <Property Name="CikisTarih" Type="date" />
+  </EntityType>
+  <EntityType Name="Personeller">
+    <Key>
+      <PropertyRef Name="PersonellerID" />
+    </Key>
+    <Property Name="PersonellerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonelTC" Type="nvarchar" MaxLength="11" />
+    <Property Name="PersonelAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="PersonelSoyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cinsiyet" Type="nvarchar" MaxLength="10" />
+    <Property Name="Maas" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" />
+    <Property Name="DogumTarihi" Type="date" />
+    <Property Name="DogumYeriID" Type="int" />
+    <Property Name="HesapNumarasi" Type="nvarchar" MaxLength="21" />
+    <Property Name="MedeniHali" Type="nvarchar" MaxLength="5" />
+    <Property Name="KanGrubuID" Type="int" />
+    <Property Name="Adres" Type="nvarchar(max)" />
+    <Property Name="KullanıcıID" Type="int" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Projeler">
+    <Key>
+      <PropertyRef Name="ProjelerID" />
+    </Key>
+    <Property Name="ProjelerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjeAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjeNotu" Type="int" />
+    <Property Name="ProjeTarih" Type="date" />
+  </EntityType>
+  <EntityType Name="Sınıflar">
+    <Key>
+      <PropertyRef Name="SiniflarID" />
+    </Key>
+    <Property Name="SiniflarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SinifSubesi" Type="nvarchar" MaxLength="10" />
+    <Property Name="OgretmenID" Type="int" />
+    <Property Name="BolumID" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TakimOgretmenleri">
+    <Key>
+      <PropertyRef Name="TakimOgretmenleriID" />
+    </Key>
+    <Property Name="TakimOgretmenleriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgretmenID" Type="int" />
+    <Property Name="TakimID" Type="int" />
+  </EntityType>
+  <EntityType Name="Veliler">
+    <Key>
+      <PropertyRef Name="VelilerID" />
+    </Key>
+    <Property Name="VelilerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VeliTC" Type="nvarchar" MaxLength="11" />
+    <Property Name="VeliAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="VeliSoyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cinsiyet" Type="nvarchar" MaxLength="10" />
+    <Property Name="DogumTarihi" Type="date" />
+    <Property Name="DogumYeriID" Type="int" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar(max)" />
+    <Property Name="MedeniHali" Type="nvarchar" MaxLength="10" />
+    <Property Name="KanGrubuID" Type="int" />
+    <Property Name="KullaniciID" Type="int" />
+  </EntityType>
+  <EntityType Name="Yetkiler">
+    <Key>
+      <PropertyRef Name="YetkilerID" />
+    </Key>
+    <Property Name="YetkilerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YetkiAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Yoklama">
+    <Key>
+      <PropertyRef Name="YoklamalarID" />
+    </Key>
+    <Property Name="YoklamalarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgrenciID" Type="int" />
+    <Property Name="YoklamaTarih" Type="date" />
+    <Property Name="Devamsızlık" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OkulSabahDB.dbo.vw_OgrenciBilgileri' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_OgrenciBilgileri">
+    <Key>
+      <PropertyRef Name="OgrencilerID" />
+    </Key>
+    <Property Name="OgrencilerID" Type="int" Nullable="false" />
+    <Property Name="OgrenciTC" Type="nvarchar" MaxLength="11" />
+    <Property Name="OgrenciAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="OgrenciSoyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cinsiyeti" Type="nvarchar" MaxLength="10" />
+    <Property Name="DogumTarihi" Type="date" />
+    <Property Name="Adres" Type="nvarchar(max)" />
+    <Property Name="Sınıf" Type="nvarchar" MaxLength="10" />
+    <Property Name="KanGrubuAdi" Type="nvarchar" MaxLength="10" />
+    <Property Name="DogumYeri" Type="nvarchar" MaxLength="50" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_IdariKadro_Ogretmenler">
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="1" />
+    <End Role="IdariKadro" Type="Self.IdariKadro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogretmenler">
+        <PropertyRef Name="OgretmenlerID" />
+      </Principal>
+      <Dependent Role="IdariKadro">
+        <PropertyRef Name="OgretmenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kullanicilar_Yetkiler">
+    <End Role="Yetkiler" Type="Self.Yetkiler" Multiplicity="1" />
+    <End Role="Kullanicilar" Type="Self.Kullanicilar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yetkiler">
+        <PropertyRef Name="YetkilerID" />
+      </Principal>
+      <Dependent Role="Kullanicilar">
+        <PropertyRef Name="YetkiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notlar_Dersler">
+    <End Role="Dersler" Type="Self.Dersler" Multiplicity="0..1" />
+    <End Role="Notlar" Type="Self.Notlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dersler">
+        <PropertyRef Name="DerslerID" />
+      </Principal>
+      <Dependent Role="Notlar">
+        <PropertyRef Name="DersID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notlar_Ogrenciler">
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="0..1" />
+    <End Role="Notlar" Type="Self.Notlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenciler">
+        <PropertyRef Name="OgrencilerID" />
+      </Principal>
+      <Dependent Role="Notlar">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciDers_Dersler">
+    <End Role="Dersler" Type="Self.Dersler" Multiplicity="0..1" />
+    <End Role="OgrenciDers" Type="Self.OgrenciDers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dersler">
+        <PropertyRef Name="DerslerID" />
+      </Principal>
+      <Dependent Role="OgrenciDers">
+        <PropertyRef Name="DersID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciDers_Ogrenciler">
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="0..1" />
+    <End Role="OgrenciDers" Type="Self.OgrenciDers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenciler">
+        <PropertyRef Name="OgrencilerID" />
+      </Principal>
+      <Dependent Role="OgrenciDers">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciIzin_Yoklama">
+    <End Role="Yoklama" Type="Self.Yoklama" Multiplicity="0..1" />
+    <End Role="OgrenciIzin" Type="Self.OgrenciIzin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yoklama">
+        <PropertyRef Name="YoklamalarID" />
+      </Principal>
+      <Dependent Role="OgrenciIzin">
+        <PropertyRef Name="YoklamaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ogrenciler_iller">
+    <End Role="iller" Type="Self.iller" Multiplicity="0..1" />
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iller">
+        <PropertyRef Name="illerID" />
+      </Principal>
+      <Dependent Role="Ogrenciler">
+        <PropertyRef Name="DogumYeriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ogrenciler_KanGruplari">
+    <End Role="KanGruplari" Type="Self.KanGruplari" Multiplicity="0..1" />
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KanGruplari">
+        <PropertyRef Name="KanGruplariID" />
+      </Principal>
+      <Dependent Role="Ogrenciler">
+        <PropertyRef Name="KanGrubuID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ogrenciler_Kullanicilar">
+    <End Role="Kullanicilar" Type="Self.Kullanicilar" Multiplicity="0..1" />
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanicilar">
+        <PropertyRef Name="KullanicilarID" />
+      </Principal>
+      <Dependent Role="Ogrenciler">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ogrenciler_Sınıflar">
+    <End Role="Sınıflar" Type="Self.Sınıflar" Multiplicity="0..1" />
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sınıflar">
+        <PropertyRef Name="SiniflarID" />
+      </Principal>
+      <Dependent Role="Ogrenciler">
+        <PropertyRef Name="SinifID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciProje_Ogrenciler">
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="0..1" />
+    <End Role="OgrenciProje" Type="Self.OgrenciProje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenciler">
+        <PropertyRef Name="OgrencilerID" />
+      </Principal>
+      <Dependent Role="OgrenciProje">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciProje_Projeler">
+    <End Role="Projeler" Type="Self.Projeler" Multiplicity="0..1" />
+    <End Role="OgrenciProje" Type="Self.OgrenciProje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projeler">
+        <PropertyRef Name="ProjelerID" />
+      </Principal>
+      <Dependent Role="OgrenciProje">
+        <PropertyRef Name="ProjeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciTakim_Ogrenciler">
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="0..1" />
+    <End Role="OgrenciTakim" Type="Self.OgrenciTakim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenciler">
+        <PropertyRef Name="OgrencilerID" />
+      </Principal>
+      <Dependent Role="OgrenciTakim">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciTakim_OkulTakimi">
+    <End Role="OkulTakimi" Type="Self.OkulTakimi" Multiplicity="0..1" />
+    <End Role="OgrenciTakim" Type="Self.OgrenciTakim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OkulTakimi">
+        <PropertyRef Name="OkulTakımiID" />
+      </Principal>
+      <Dependent Role="OgrenciTakim">
+        <PropertyRef Name="OkulTakimiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciVeli_Ogrenciler">
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="0..1" />
+    <End Role="OgrenciVeli" Type="Self.OgrenciVeli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenciler">
+        <PropertyRef Name="OgrencilerID" />
+      </Principal>
+      <Dependent Role="OgrenciVeli">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgrenciVeli_Veliler">
+    <End Role="Veliler" Type="Self.Veliler" Multiplicity="0..1" />
+    <End Role="OgrenciVeli" Type="Self.OgrenciVeli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Veliler">
+        <PropertyRef Name="VelilerID" />
+      </Principal>
+      <Dependent Role="OgrenciVeli">
+        <PropertyRef Name="VeliID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgretmenBilgileri_Ogretmenler">
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="1" />
+    <End Role="OgretmenBilgileri" Type="Self.OgretmenBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogretmenler">
+        <PropertyRef Name="OgretmenlerID" />
+      </Principal>
+      <Dependent Role="OgretmenBilgileri">
+        <PropertyRef Name="OgretmenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgretmenDers_Dersler">
+    <End Role="Dersler" Type="Self.Dersler" Multiplicity="0..1" />
+    <End Role="OgretmenDers" Type="Self.OgretmenDers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dersler">
+        <PropertyRef Name="DerslerID" />
+      </Principal>
+      <Dependent Role="OgretmenDers">
+        <PropertyRef Name="DersID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgretmenDers_Ogretmenler">
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="0..1" />
+    <End Role="OgretmenDers" Type="Self.OgretmenDers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogretmenler">
+        <PropertyRef Name="OgretmenlerID" />
+      </Principal>
+      <Dependent Role="OgretmenDers">
+        <PropertyRef Name="OgretmenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgretmenIzin_Ogretmenler">
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="0..1" />
+    <End Role="OgretmenIzin" Type="Self.OgretmenIzin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogretmenler">
+        <PropertyRef Name="OgretmenlerID" />
+      </Principal>
+      <Dependent Role="OgretmenIzin">
+        <PropertyRef Name="OgretmenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ogretmenler_Branslar">
+    <End Role="Branslar" Type="Self.Branslar" Multiplicity="0..1" />
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Branslar">
+        <PropertyRef Name="BranslarID" />
+      </Principal>
+      <Dependent Role="Ogretmenler">
+        <PropertyRef Name="BransID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ogretmenler_iller">
+    <End Role="iller" Type="Self.iller" Multiplicity="0..1" />
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iller">
+        <PropertyRef Name="illerID" />
+      </Principal>
+      <Dependent Role="Ogretmenler">
+        <PropertyRef Name="DogumYeriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ogretmenler_KanGruplari">
+    <End Role="KanGruplari" Type="Self.KanGruplari" Multiplicity="0..1" />
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KanGruplari">
+        <PropertyRef Name="KanGruplariID" />
+      </Principal>
+      <Dependent Role="Ogretmenler">
+        <PropertyRef Name="KanGrubuID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgretmenProje_Ogretmenler">
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="0..1" />
+    <End Role="OgretmenProje" Type="Self.OgretmenProje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogretmenler">
+        <PropertyRef Name="OgretmenlerID" />
+      </Principal>
+      <Dependent Role="OgretmenProje">
+        <PropertyRef Name="OgretmenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OgretmenProje_Projeler">
+    <End Role="Projeler" Type="Self.Projeler" Multiplicity="0..1" />
+    <End Role="OgretmenProje" Type="Self.OgretmenProje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projeler">
+        <PropertyRef Name="ProjelerID" />
+      </Principal>
+      <Dependent Role="OgretmenProje">
+        <PropertyRef Name="ProjeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonelBilgileri_Personeller">
+    <End Role="Personeller" Type="Self.Personeller" Multiplicity="1" />
+    <End Role="PersonelBilgileri" Type="Self.PersonelBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personeller">
+        <PropertyRef Name="PersonellerID" />
+      </Principal>
+      <Dependent Role="PersonelBilgileri">
+        <PropertyRef Name="PersonelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personeller_iller">
+    <End Role="iller" Type="Self.iller" Multiplicity="0..1" />
+    <End Role="Personeller" Type="Self.Personeller" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iller">
+        <PropertyRef Name="illerID" />
+      </Principal>
+      <Dependent Role="Personeller">
+        <PropertyRef Name="DogumYeriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personeller_KanGruplari">
+    <End Role="KanGruplari" Type="Self.KanGruplari" Multiplicity="0..1" />
+    <End Role="Personeller" Type="Self.Personeller" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KanGruplari">
+        <PropertyRef Name="KanGruplariID" />
+      </Principal>
+      <Dependent Role="Personeller">
+        <PropertyRef Name="KanGrubuID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personeller_Kullanicilar">
+    <End Role="Kullanicilar" Type="Self.Kullanicilar" Multiplicity="0..1" />
+    <End Role="Personeller" Type="Self.Personeller" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanicilar">
+        <PropertyRef Name="KullanicilarID" />
+      </Principal>
+      <Dependent Role="Personeller">
+        <PropertyRef Name="KullanıcıID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sınıflar_Bolumler">
+    <End Role="Bolumler" Type="Self.Bolumler" Multiplicity="0..1" />
+    <End Role="Sınıflar" Type="Self.Sınıflar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bolumler">
+        <PropertyRef Name="BolumlerID" />
+      </Principal>
+      <Dependent Role="Sınıflar">
+        <PropertyRef Name="BolumID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sınıflar_Ogretmenler">
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="0..1" />
+    <End Role="Sınıflar" Type="Self.Sınıflar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogretmenler">
+        <PropertyRef Name="OgretmenlerID" />
+      </Principal>
+      <Dependent Role="Sınıflar">
+        <PropertyRef Name="OgretmenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TakimOgretmenleri_Ogretmenler">
+    <End Role="Ogretmenler" Type="Self.Ogretmenler" Multiplicity="0..1" />
+    <End Role="TakimOgretmenleri" Type="Self.TakimOgretmenleri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogretmenler">
+        <PropertyRef Name="OgretmenlerID" />
+      </Principal>
+      <Dependent Role="TakimOgretmenleri">
+        <PropertyRef Name="OgretmenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TakimOgretmenleri_OkulTakimi">
+    <End Role="OkulTakimi" Type="Self.OkulTakimi" Multiplicity="0..1" />
+    <End Role="TakimOgretmenleri" Type="Self.TakimOgretmenleri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OkulTakimi">
+        <PropertyRef Name="OkulTakımiID" />
+      </Principal>
+      <Dependent Role="TakimOgretmenleri">
+        <PropertyRef Name="TakimID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Veliler_iller">
+    <End Role="iller" Type="Self.iller" Multiplicity="0..1" />
+    <End Role="Veliler" Type="Self.Veliler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iller">
+        <PropertyRef Name="illerID" />
+      </Principal>
+      <Dependent Role="Veliler">
+        <PropertyRef Name="DogumYeriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Veliler_KanGruplari">
+    <End Role="KanGruplari" Type="Self.KanGruplari" Multiplicity="0..1" />
+    <End Role="Veliler" Type="Self.Veliler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KanGruplari">
+        <PropertyRef Name="KanGruplariID" />
+      </Principal>
+      <Dependent Role="Veliler">
+        <PropertyRef Name="KanGrubuID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Veliler_Kullanicilar">
+    <End Role="Kullanicilar" Type="Self.Kullanicilar" Multiplicity="0..1" />
+    <End Role="Veliler" Type="Self.Veliler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanicilar">
+        <PropertyRef Name="KullanicilarID" />
+      </Principal>
+      <Dependent Role="Veliler">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Yoklama_Ogrenciler">
+    <End Role="Ogrenciler" Type="Self.Ogrenciler" Multiplicity="0..1" />
+    <End Role="Yoklama" Type="Self.Yoklama" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenciler">
+        <PropertyRef Name="OgrencilerID" />
+      </Principal>
+      <Dependent Role="Yoklama">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="fnc_IDileDersSayisiGetir" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="Numara" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fnc_Indirim1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="money">
+    <Parameter Name="para" Type="money" Mode="In" />
+  </Function>
+  <Function Name="fnc_OgrencininDersleri" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="yetki" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="fnc_Ogretmentogretmenindogumtarihi" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="date">
+    <Parameter Name="tc" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="fnc_sayıgetir" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="deger" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="fnc_sınıfMevcudu" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="SinifNo" Type="nvarchar" Mode="In" />
+    <Parameter Name="SinifSubesi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="fnc_SinifnovesubeyeMevcudu" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="SinifNo" Type="nvarchar" Mode="In" />
+    <Parameter Name="SinifSube" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="fnc_TCGoreDogumYili" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="tc" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="fnc_TCGoreOgrenciAdiGetir" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="nvarchar(max)">
+    <Parameter Name="TC" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SayiGetir" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="deger" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_DersAlanOgrenci" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DersAdi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_DersAlanOgrenciler" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DersAdi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_DersEkle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DersAdi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_IdariKadroGuncelle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdariKadroID" Type="int" Mode="In" />
+    <Parameter Name="unvanAdı" Type="nvarchar" Mode="In" />
+    <Parameter Name="OgretmenID" Type="int" Mode="In" />
+    <Parameter Name="DipNo" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_IdariKadroGuncelle1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdariKadroID" Type="int" Mode="In" />
+    <Parameter Name="UnvanAdi" Type="nvarchar" Mode="In" />
+    <Parameter Name="OgretmenID" Type="int" Mode="In" />
+    <Parameter Name="DipNo" Type="nvarchar" Mode="In" />
+    <Parameter Name="yetki" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_IdariKadroGuncelle2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdariKadroID" Type="int" Mode="In" />
+    <Parameter Name="UnvanAdi" Type="nvarchar" Mode="In" />
+    <Parameter Name="OgretmenID" Type="int" Mode="In" />
+    <Parameter Name="DipNo" Type="nvarchar" Mode="In" />
+    <Parameter Name="yetki" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_Ogrenciler" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_OgrencilerinSiniflari" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ogrencisiniflari" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_PersonelGiriCikisBilgileri" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TC" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_SinifEkle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SinifNo" Type="nvarchar" Mode="In" />
+    <Parameter Name="SinifSubesi" Type="nvarchar" Mode="In" />
+    <Parameter Name="OgretmenID" Type="int" Mode="In" />
+    <Parameter Name="BolumID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_SinifGuncelle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SiniflarID" Type="int" Mode="In" />
+    <Parameter Name="SinifNo" Type="nvarchar" Mode="In" />
+    <Parameter Name="SinifSubesi" Type="nvarchar" Mode="In" />
+    <Parameter Name="OgretmenID" Type="int" Mode="In" />
+    <Parameter Name="BolumID" Type="int" Mode="In" />
+    <Parameter Name="yetki" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_SinifGuncelle1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SiniflarID" Type="int" Mode="In" />
+    <Parameter Name="SinifNo" Type="nvarchar" Mode="In" />
+    <Parameter Name="SinifSubesi" Type="nvarchar" Mode="In" />
+    <Parameter Name="OgretmenID" Type="int" Mode="In" />
+    <Parameter Name="BolumID" Type="int" Mode="In" />
+    <Parameter Name="yetki" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_SinifSilme" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SiniflarD" Type="int" Mode="In" />
+    <Parameter Name="yetkiAdi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_SinifSilme1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SiniflarID" Type="int" Mode="In" />
+    <Parameter Name="yetki" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_SubeyegoreListeler" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="subeAdi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_VeliEkle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tc" Type="nvarchar" Mode="In" />
+    <Parameter Name="adi" Type="nvarchar" Mode="In" />
+    <Parameter Name="soyad" Type="nvarchar" Mode="In" />
+    <Parameter Name="cinsiyet" Type="nvarchar" Mode="In" />
+    <Parameter Name="DogumTarihi" Type="date" Mode="In" />
+    <Parameter Name="DogumYeriID" Type="int" Mode="In" />
+    <Parameter Name="Telefon" Type="nvarchar" Mode="In" />
+    <Parameter Name="adres" Type="nvarchar" Mode="In" />
+    <Parameter Name="MedeniHali" Type="nvarchar" Mode="In" />
+    <Parameter Name="KanGrubuID" Type="int" Mode="In" />
+    <Parameter Name="kulID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_VeliEkle1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TC" Type="nvarchar" Mode="In" />
+    <Parameter Name="Ad" Type="nvarchar" Mode="In" />
+    <Parameter Name="Soyad" Type="nvarchar" Mode="In" />
+    <Parameter Name="Cinsiyet" Type="nvarchar" Mode="In" />
+    <Parameter Name="DTarihi" Type="date" Mode="In" />
+    <Parameter Name="DYeriID" Type="int" Mode="In" />
+    <Parameter Name="Tel" Type="nvarchar" Mode="In" />
+    <Parameter Name="Adres" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="MedeniHali" Type="nvarchar" Mode="In" />
+    <Parameter Name="KanGrubuID" Type="int" Mode="In" />
+    <Parameter Name="KulID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_YetkiSil" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="yetkiAdi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_YetkiSil1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="YetkilerID" Type="int" Mode="In" />
+    <Parameter Name="Yetki" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="OkulSabahDBModelStoreContainer">
+    <EntitySet Name="Bolumler" EntityType="Self.Bolumler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Branslar" EntityType="Self.Branslar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dersler" EntityType="Self.Dersler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IdariKadro" EntityType="Self.IdariKadro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iller" EntityType="Self.iller" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KanGruplari" EntityType="Self.KanGruplari" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kulupler" EntityType="Self.Kulupler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notlar" EntityType="Self.Notlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgrenciDers" EntityType="Self.OgrenciDers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgrenciIzin" EntityType="Self.OgrenciIzin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ogrenciler" EntityType="Self.Ogrenciler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgrenciProje" EntityType="Self.OgrenciProje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgrenciTakim" EntityType="Self.OgrenciTakim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgrenciVeli" EntityType="Self.OgrenciVeli" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgretmenBilgileri" EntityType="Self.OgretmenBilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgretmenDers" EntityType="Self.OgretmenDers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgretmenIzin" EntityType="Self.OgretmenIzin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ogretmenler" EntityType="Self.Ogretmenler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OgretmenProje" EntityType="Self.OgretmenProje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OkulTakimi" EntityType="Self.OkulTakimi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PersonelBilgileri" EntityType="Self.PersonelBilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personeller" EntityType="Self.Personeller" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Projeler" EntityType="Self.Projeler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sınıflar" EntityType="Self.Sınıflar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TakimOgretmenleri" EntityType="Self.TakimOgretmenleri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Veliler" EntityType="Self.Veliler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yetkiler" EntityType="Self.Yetkiler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yoklama" EntityType="Self.Yoklama" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vw_OgrenciBilgileri" EntityType="Self.vw_OgrenciBilgileri" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_OgrenciBilgileri].[OgrencilerID] AS [OgrencilerID], 
+    [vw_OgrenciBilgileri].[OgrenciTC] AS [OgrenciTC], 
+    [vw_OgrenciBilgileri].[OgrenciAdi] AS [OgrenciAdi], 
+    [vw_OgrenciBilgileri].[OgrenciSoyadi] AS [OgrenciSoyadi], 
+    [vw_OgrenciBilgileri].[Cinsiyeti] AS [Cinsiyeti], 
+    [vw_OgrenciBilgileri].[DogumTarihi] AS [DogumTarihi], 
+    [vw_OgrenciBilgileri].[Adres] AS [Adres], 
+    [vw_OgrenciBilgileri].[Sınıf] AS [Sınıf], 
+    [vw_OgrenciBilgileri].[KanGrubuAdi] AS [KanGrubuAdi], 
+    [vw_OgrenciBilgileri].[DogumYeri] AS [DogumYeri], 
+    [vw_OgrenciBilgileri].[KullaniciAdi] AS [KullaniciAdi]
+    FROM [dbo].[vw_OgrenciBilgileri] AS [vw_OgrenciBilgileri]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_IdariKadro_Ogretmenler" Association="Self.FK_IdariKadro_Ogretmenler">
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+      <End Role="IdariKadro" EntitySet="IdariKadro" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kullanicilar_Yetkiler" Association="Self.FK_Kullanicilar_Yetkiler">
+      <End Role="Yetkiler" EntitySet="Yetkiler" />
+      <End Role="Kullanicilar" EntitySet="Kullanicilar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notlar_Dersler" Association="Self.FK_Notlar_Dersler">
+      <End Role="Dersler" EntitySet="Dersler" />
+      <End Role="Notlar" EntitySet="Notlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notlar_Ogrenciler" Association="Self.FK_Notlar_Ogrenciler">
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+      <End Role="Notlar" EntitySet="Notlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciDers_Dersler" Association="Self.FK_OgrenciDers_Dersler">
+      <End Role="Dersler" EntitySet="Dersler" />
+      <End Role="OgrenciDers" EntitySet="OgrenciDers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciDers_Ogrenciler" Association="Self.FK_OgrenciDers_Ogrenciler">
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+      <End Role="OgrenciDers" EntitySet="OgrenciDers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciIzin_Yoklama" Association="Self.FK_OgrenciIzin_Yoklama">
+      <End Role="Yoklama" EntitySet="Yoklama" />
+      <End Role="OgrenciIzin" EntitySet="OgrenciIzin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ogrenciler_iller" Association="Self.FK_Ogrenciler_iller">
+      <End Role="iller" EntitySet="iller" />
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ogrenciler_KanGruplari" Association="Self.FK_Ogrenciler_KanGruplari">
+      <End Role="KanGruplari" EntitySet="KanGruplari" />
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ogrenciler_Kullanicilar" Association="Self.FK_Ogrenciler_Kullanicilar">
+      <End Role="Kullanicilar" EntitySet="Kullanicilar" />
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ogrenciler_Sınıflar" Association="Self.FK_Ogrenciler_Sınıflar">
+      <End Role="Sınıflar" EntitySet="Sınıflar" />
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciProje_Ogrenciler" Association="Self.FK_OgrenciProje_Ogrenciler">
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+      <End Role="OgrenciProje" EntitySet="OgrenciProje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciProje_Projeler" Association="Self.FK_OgrenciProje_Projeler">
+      <End Role="Projeler" EntitySet="Projeler" />
+      <End Role="OgrenciProje" EntitySet="OgrenciProje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciTakim_Ogrenciler" Association="Self.FK_OgrenciTakim_Ogrenciler">
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+      <End Role="OgrenciTakim" EntitySet="OgrenciTakim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciTakim_OkulTakimi" Association="Self.FK_OgrenciTakim_OkulTakimi">
+      <End Role="OkulTakimi" EntitySet="OkulTakimi" />
+      <End Role="OgrenciTakim" EntitySet="OgrenciTakim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciVeli_Ogrenciler" Association="Self.FK_OgrenciVeli_Ogrenciler">
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+      <End Role="OgrenciVeli" EntitySet="OgrenciVeli" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgrenciVeli_Veliler" Association="Self.FK_OgrenciVeli_Veliler">
+      <End Role="Veliler" EntitySet="Veliler" />
+      <End Role="OgrenciVeli" EntitySet="OgrenciVeli" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgretmenBilgileri_Ogretmenler" Association="Self.FK_OgretmenBilgileri_Ogretmenler">
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+      <End Role="OgretmenBilgileri" EntitySet="OgretmenBilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgretmenDers_Dersler" Association="Self.FK_OgretmenDers_Dersler">
+      <End Role="Dersler" EntitySet="Dersler" />
+      <End Role="OgretmenDers" EntitySet="OgretmenDers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgretmenDers_Ogretmenler" Association="Self.FK_OgretmenDers_Ogretmenler">
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+      <End Role="OgretmenDers" EntitySet="OgretmenDers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgretmenIzin_Ogretmenler" Association="Self.FK_OgretmenIzin_Ogretmenler">
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+      <End Role="OgretmenIzin" EntitySet="OgretmenIzin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ogretmenler_Branslar" Association="Self.FK_Ogretmenler_Branslar">
+      <End Role="Branslar" EntitySet="Branslar" />
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ogretmenler_iller" Association="Self.FK_Ogretmenler_iller">
+      <End Role="iller" EntitySet="iller" />
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ogretmenler_KanGruplari" Association="Self.FK_Ogretmenler_KanGruplari">
+      <End Role="KanGruplari" EntitySet="KanGruplari" />
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgretmenProje_Ogretmenler" Association="Self.FK_OgretmenProje_Ogretmenler">
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+      <End Role="OgretmenProje" EntitySet="OgretmenProje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OgretmenProje_Projeler" Association="Self.FK_OgretmenProje_Projeler">
+      <End Role="Projeler" EntitySet="Projeler" />
+      <End Role="OgretmenProje" EntitySet="OgretmenProje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonelBilgileri_Personeller" Association="Self.FK_PersonelBilgileri_Personeller">
+      <End Role="Personeller" EntitySet="Personeller" />
+      <End Role="PersonelBilgileri" EntitySet="PersonelBilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personeller_iller" Association="Self.FK_Personeller_iller">
+      <End Role="iller" EntitySet="iller" />
+      <End Role="Personeller" EntitySet="Personeller" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personeller_KanGruplari" Association="Self.FK_Personeller_KanGruplari">
+      <End Role="KanGruplari" EntitySet="KanGruplari" />
+      <End Role="Personeller" EntitySet="Personeller" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personeller_Kullanicilar" Association="Self.FK_Personeller_Kullanicilar">
+      <End Role="Kullanicilar" EntitySet="Kullanicilar" />
+      <End Role="Personeller" EntitySet="Personeller" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sınıflar_Bolumler" Association="Self.FK_Sınıflar_Bolumler">
+      <End Role="Bolumler" EntitySet="Bolumler" />
+      <End Role="Sınıflar" EntitySet="Sınıflar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sınıflar_Ogretmenler" Association="Self.FK_Sınıflar_Ogretmenler">
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+      <End Role="Sınıflar" EntitySet="Sınıflar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TakimOgretmenleri_Ogretmenler" Association="Self.FK_TakimOgretmenleri_Ogretmenler">
+      <End Role="Ogretmenler" EntitySet="Ogretmenler" />
+      <End Role="TakimOgretmenleri" EntitySet="TakimOgretmenleri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TakimOgretmenleri_OkulTakimi" Association="Self.FK_TakimOgretmenleri_OkulTakimi">
+      <End Role="OkulTakimi" EntitySet="OkulTakimi" />
+      <End Role="TakimOgretmenleri" EntitySet="TakimOgretmenleri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Veliler_iller" Association="Self.FK_Veliler_iller">
+      <End Role="iller" EntitySet="iller" />
+      <End Role="Veliler" EntitySet="Veliler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Veliler_KanGruplari" Association="Self.FK_Veliler_KanGruplari">
+      <End Role="KanGruplari" EntitySet="KanGruplari" />
+      <End Role="Veliler" EntitySet="Veliler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Veliler_Kullanicilar" Association="Self.FK_Veliler_Kullanicilar">
+      <End Role="Kullanicilar" EntitySet="Kullanicilar" />
+      <End Role="Veliler" EntitySet="Veliler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Yoklama_Ogrenciler" Association="Self.FK_Yoklama_Ogrenciler">
+      <End Role="Ogrenciler" EntitySet="Ogrenciler" />
+      <End Role="Yoklama" EntitySet="Yoklama" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

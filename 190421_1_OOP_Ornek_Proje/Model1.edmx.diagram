@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9c0dd29843f944bba3bd8dbc7c3a225e" Name="Diagram1" ZoomLevel="81">
+        <EntityTypeShape EntityType="OkulSabahDBModel.Bolumler" Width="1.5" PointX="10.5" PointY="14.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Branslar" Width="1.5" PointX="8.25" PointY="14.625" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Dersler" Width="1.5" PointX="10.5" PointY="11.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.IdariKadro" Width="1.5" PointX="12.75" PointY="40.875" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.iller" Width="1.5" PointX="5.25" PointY="19.75" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.KanGruplari" Width="1.5" PointX="5.25" PointY="26.375" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Kullanicilar" Width="1.5" PointX="5.25" PointY="16.25" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Kulupler" Width="1.5" PointX="5.25" PointY="0.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Notlar" Width="1.5" PointX="12.75" PointY="19" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgrenciDers" Width="1.5" PointX="12.75" PointY="15.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgrenciIzin" Width="1.5" PointX="12" PointY="36.75" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Ogrenciler" Width="1.5" PointX="7.5" PointY="18.75" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgrenciProje" Width="1.5" PointX="12.75" PointY="25.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgrenciTakim" Width="1.5" PointX="9.75" PointY="17.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgrenciVeli" Width="1.5" PointX="9.75" PointY="21.125" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgretmenBilgileri" Width="1.5" PointX="12.75" PointY="43.625" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgretmenDers" Width="1.5" PointX="15.75" PointY="23.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgretmenIzin" Width="1.5" PointX="12.75" PointY="32.875" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Ogretmenler" Width="1.5" PointX="10.5" PointY="24.625" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OgretmenProje" Width="1.5" PointX="15.75" PointY="29.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.OkulTakimi" Width="1.5" PointX="7.5" PointY="10.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.PersonelBilgileri" Width="1.5" PointX="9.75" PointY="32.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Personeller" Width="1.5" PointX="7.5" PointY="31.125" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Projeler" Width="1.5" PointX="10.5" PointY="40.375" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Sınıflar" Width="1.5" PointX="12.75" PointY="28.25" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.sysdiagrams" Width="1.5" PointX="7.25" PointY="0.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.TakimOgretmenleri" Width="1.5" PointX="15.75" PointY="26.5" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Veliler" Width="1.5" PointX="7.5" PointY="25.375" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Yetkiler" Width="1.5" PointX="6" PointY="13.875" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.Yoklama" Width="1.5" PointX="9.75" PointY="36.875" />
+        <EntityTypeShape EntityType="OkulSabahDBModel.vw_OgrenciBilgileri" Width="1.5" PointX="9.875" PointY="0.75" FillColor="Yellow" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Sınıflar_Bolumler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Ogretmenler_Branslar" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Notlar_Dersler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciDers_Dersler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgretmenDers_Dersler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_IdariKadro_Ogretmenler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Ogrenciler_iller" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Ogretmenler_iller" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Personeller_iller" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Veliler_iller" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Ogrenciler_KanGruplari" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Ogretmenler_KanGruplari" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Personeller_KanGruplari" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Veliler_KanGruplari" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Kullanicilar_Yetkiler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Ogrenciler_Kullanicilar" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Personeller_Kullanicilar" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Veliler_Kullanicilar" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Notlar_Ogrenciler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciDers_Ogrenciler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciIzin_Yoklama" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Ogrenciler_Sınıflar" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciProje_Ogrenciler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciTakim_Ogrenciler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciVeli_Ogrenciler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Yoklama_Ogrenciler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciProje_Projeler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciTakim_OkulTakimi" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgrenciVeli_Veliler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgretmenBilgileri_Ogretmenler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgretmenDers_Ogretmenler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgretmenIzin_Ogretmenler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgretmenProje_Ogretmenler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_Sınıflar_Ogretmenler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_TakimOgretmenleri_Ogretmenler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_OgretmenProje_Projeler" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_TakimOgretmenleri_OkulTakimi" />
+        <AssociationConnector Association="OkulSabahDBModel.FK_PersonelBilgileri_Personeller" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

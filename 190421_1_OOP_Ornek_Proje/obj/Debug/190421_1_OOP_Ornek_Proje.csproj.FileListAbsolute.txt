@@ -1,0 +1,271 @@
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe.config
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.pdb
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csprojAssemblyReference.cache
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Form1.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Properties.Resources.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.GenerateResource.cache
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CoreCompileInputs.cache
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CopyComplete
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.exe
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.pdb
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.BranslarForm.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmMenu.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.frmBolumler.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.formOgrenciler.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe.config
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.pdb
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.dll
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.xml
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csprojAssemblyReference.cache
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.BranslarForm.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Form1.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.formOgrenciler.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.frmBolumler.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmMenu.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Properties.Resources.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.GenerateResource.cache
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CoreCompileInputs.cache
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CopyComplete
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.exe
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.pdb
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerForm.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerGuncelleForm.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe.config
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.pdb
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.dll
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.xml
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csprojAssemblyReference.cache
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.BranslarForm.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Form1.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.formOgrenciler.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.frmBolumler.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmMenu.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerForm.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerGuncelleForm.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Properties.Resources.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.GenerateResource.cache
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CoreCompileInputs.cache
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CopyComplete
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.exe
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.pdb
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HogrencilerYeniKayit.resources
+C:\Users\Hasan\Desktop\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmLogin.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe.config
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.pdb
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csprojAssemblyReference.cache
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.BranslarForm.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Form1.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.formOgrenciler.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.frmBolumler.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmLogin.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmMenu.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerForm.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerGuncelleForm.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HogrencilerYeniKayit.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Properties.Resources.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.GenerateResource.cache
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CoreCompileInputs.cache
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CopyComplete
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.exe
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje(Hepsi Eksiklerim var)\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.pdb
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Data.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Utils.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraBars.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Office.v17.1.Core.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Data.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Utils.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraBars.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Office.v17.1.Core.xml
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmLogin.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerForm.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerGuncelleForm.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HogrencilerYeniKayit.resources
+D:\USB\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.exe.licenses
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe.config
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.exe
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\190421_1_OOP_Ornek_Proje.pdb
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Data.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Utils.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraBars.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Office.v17.1.Core.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Data.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Utils.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\EntityFramework.SqlServer.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraBars.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\DevExpress.Office.v17.1.Core.xml
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csprojAssemblyReference.cache
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.BranslarForm.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Form1.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.formOgrenciler.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.frmBolumler.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmLogin.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.FrmMenu.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerForm.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HOgrencilerGuncelleForm.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.HogrencilerYeniKayit.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\_190421_1_OOP_Ornek_Proje.Properties.Resources.resources
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.GenerateResource.cache
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.exe.licenses
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CoreCompileInputs.cache
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.csproj.CopyComplete
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.exe
+D:\USB\Benim Kurs Notlarım\4-WF OOP\190421_1_OOP_Ornek_Proje\190421_1_OOP_Ornek_Proje\obj\Debug\190421_1_OOP_Ornek_Proje.pdb
